@@ -1,4 +1,4 @@
-package imgcat
+package iterm2
 
 import (
 	"encoding/base64"

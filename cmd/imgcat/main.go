@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/nugget/imgcat"
+	"github.com/nugget/iterm2"
 )
 
 func main() {
-	err := imgcat.PrintImage("sample.png")
+	err := iterm2.PrintImage("sample.png")
 	if err != nil {
 		log.Fatal(err)
 	}
